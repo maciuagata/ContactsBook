@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <a href="contacts.php">Home</a>
+    <div id="navigation">
+        <ul class="nav-list">
+            <li id="js-add-new">Add New contact</li>
+        </ul>
+    </div>
+
+
+    <div id="contact-panel" class="panel">
+        <form id="contact" method="POST" action="add.php">
+            <h1>Add a new contact</h1>
+            <div>
+                <label>
+                        <input type="text" name="firstname" id="name" placeholder="John " />
+                    </label>
+                <label>
+                        <input type="text" name="lastname" id="name" placeholder="Smith" />
+                    </label>
+                <label>
+                        <input type="text" name="phonenumber" id="name" placeholder="000-0000-0000" />
+                    </label>
+            </div>
+            <div>
+                <input type="submit" name="Submit" value="Submit" />
+            </div>
+        </form>
+    </div>
+    <div id="show-panel" class="panel">
+
+    </div>
+</body>
+
+</html>
